@@ -5,12 +5,12 @@ import java.util.*;
 public class Main {
 
 	public static void main(String[] args) {
-		//c'est un programme créer par Luidjy AUBEL
-       //fait le 03/02/2021 pour un reprise du JAVA
-	//Le coin des variables
-	String Artiste = "Glenn Tipton";
-	String Artiste2 = "K.K Downing";
-	String Artiste3 = "Richie Faulkner";
+		/*@author Luidjy AUBEL
+         fait le 03/02/2021 pour un reprise du JAVA
+	    Le coin des variables*/
+	final String Artiste = "Glenn Tipton";
+	final String Artiste2 = "K.K Downing";
+	final String Artiste3 = "Richie Faulkner";
 	//programme principal
 	System.out.println("----------------------------------------------");
 	System.out.println("| Bienvenue sur un programme de Luidjy AUBEL |");
@@ -26,5 +26,11 @@ public class Main {
 	}else {
 	  System.out.println("Mauvaise réponse !");
 	}
+	
+	sayHelloTo("Bob");
+	
 }
+    private static void sayHelloTo(String recipient) {
+        System.out.println("Hello " + recipient);
+    }
 }
